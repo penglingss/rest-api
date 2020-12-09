@@ -1,5 +1,6 @@
-com/rest/api/controller/v1/UserController.java
- com.rest.api.controller.v1.UserController
+com/rest/api/entity/User.java
+ com.rest.api.entity.User
+ com.rest.api.entity.User$UserBuilder
 com/rest/api/Applications.java
  com.rest.api.Applications
 com/rest/api/config/SwaggerConfiguration.java
@@ -9,6 +10,14 @@ com/rest/api/repo/UserJpaRepo.java
 com/rest/api/controller/HelloController.java
  com.rest.api.controller.HelloController
  com.rest.api.controller.HelloController$Hello
-com/rest/api/entity/User.java
- com.rest.api.entity.User
- com.rest.api.entity.User$UserBuilder
+com/rest/api/controller/v1/UserController.java
+ com.rest.api.controller.v1.UserController
+com/rest/api/service/ResponseService.java
+ com.rest.api.service.ResponseService
+ com.rest.api.service.ResponseService$CommonResponse
+com/rest/api/model/response/CommonResult.java
+ com.rest.api.model.response.CommonResult
+com/rest/api/model/response/ListResult.java
+ com.rest.api.model.response.ListResult
+com/rest/api/model/response/SingleResult.java
+ com.rest.api.model.response.SingleResult
